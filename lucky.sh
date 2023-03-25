@@ -3,7 +3,7 @@
 echo "Enter Any Number"
 read n
 
-if [[( $n -eq 15 || $n -eq 45 )]]
+if [[( $n -gt 15 && $n -lt 45 )]]
 then
 echo "You won the game"
 else
